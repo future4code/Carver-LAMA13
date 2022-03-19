@@ -1,7 +1,5 @@
 node_modules/
 build/
-package-lock.json/
-**jest.config.js/
 src
 
-.env/
+
