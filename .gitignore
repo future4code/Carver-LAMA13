@@ -1,5 +1,8 @@
 node_modules/
 build/
-src
 
+.env
+jest.config.ts
 
+package-lock.json
+ts.config.json
