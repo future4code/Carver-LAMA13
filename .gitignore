@@ -1,8 +1,0 @@
-node_modules/
-build/
-
-.env
-jest.config.ts
-
-package-lock.json
-ts.config.json
