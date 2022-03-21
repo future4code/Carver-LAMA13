@@ -12,10 +12,10 @@ export abstract class BaseDatabase {
                 client: "mysql",
                 connection: {
                   host: process.env.DB_HOST,
-                  port: 3306,
                   user: process.env.DB_USER,
+                  database: process.env.DB_SCHEMA,
+                  port: Number(process.env.DB_PORT),
                   password: process.env.DB_PASSWORD,
-                  database: process.env.DB_DATABASE_NAME,
                 },
               });        
         }
